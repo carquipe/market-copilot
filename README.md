@@ -68,4 +68,12 @@ axisFormat %x
 section Core
 Initial Readme  :done, a1, 2022-12-09, 1d
 Webapp Project Setup :active, after a1 , 1d
-```
+````
+
+### Technologies used
+- **NVM:** Node Version Manager to download NPM [NVM Installation](https://github.com/nvm-sh/nvm)
+- **NPM:** Management of NPX download
+- **NPX:** Creating and installing react project
+- **Create React App:** To create skeleton of React project
+- **React:** Javascript Framework to present web UI
+- **Spring Boot:** For APIs

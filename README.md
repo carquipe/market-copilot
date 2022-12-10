@@ -74,6 +74,17 @@ Webapp Project Setup :active, after a1 , 1d
 - **NVM:** Node Version Manager to download NPM [NVM Installation](https://github.com/nvm-sh/nvm)
 - **NPM:** Management of NPX download
 - **NPX:** Creating and installing react project
-- **Create React App:** To create skeleton of React project
-- **React:** Javascript Framework to present web UI
+- **Java:** Primary language for backend
+- **Javascript:** For visuals in UI
+
+### Frameworks used
 - **Spring Boot:** For APIs
+- **React:** Javascript Framework to present web UI
+
+### Utilities used
+- **Sprint Initializer:** Make easier the creation of Skeleton of the project
+- **Create React App:** To create skeleton of React project 
+
+### Knowledge base
+- [How to create REST API with Java Spring Boot](https://dzone.com/articles/how-to-create-rest-api-with-spring-boot)
+- [How to create React APP](https://reactjs.org/docs/create-a-new-react-app.html)

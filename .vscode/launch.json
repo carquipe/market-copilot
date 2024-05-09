@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MarketApplication<market>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.carquipe.market.MarketApplication",
+            "projectName": "market",
+            "args": "--spring.profiles.active=development",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

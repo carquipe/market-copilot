@@ -1,5 +1,7 @@
 package com.carquipe.market.model;
 
+import java.util.UUID;
+
 import org.springframework.data.rest.core.annotation.RestResource;
 
 import jakarta.persistence.Entity;
@@ -8,14 +10,13 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import lombok.Data;
 
-@Entity
 @Data
-@RestResource(rel="products", path="product")
-public class Product {
+@Entity
+@RestResource(rel="customers", path="customers")
+public class Customer {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-    private String name;
-    private String price;
+    @GeneratedValue(strategy = GenerationType.UUID)
+    private UUID id;
 
 }
